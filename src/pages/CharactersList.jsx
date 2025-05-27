@@ -53,7 +53,7 @@ export default function CharactersList() {
             <img
               src={char.image}
               alt={char.name || "character"}
-              className="w-full h-48 object-cover group-hover:scale-105 transition"
+              className="w-full h-48 object-fill  group-hover:scale-105 transition"
             />
             <div className="p-2 bg-neutral-50">
               <p className="text-center text-neutral-900 font-medium truncate">

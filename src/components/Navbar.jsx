@@ -37,7 +37,7 @@ export default function Navbar() {
         {/* Burger button */}
         <button
           onClick={() => setMenuOpen((o) => !o)}
-          className="lg:hidden focus:outline-none "
+          className="lg:hidden focus:outline-none text-neutral-900"
         >
           {menuOpen ? <IoClose size={28} /> : <IoMenu size={28} />}
         </button>
@@ -45,7 +45,7 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       <div
-        className={`lg:hidden bg-black overflow-hidden transition-[max-height] duration-300
+        className={`lg:hidden bg-neutral-200 overflow-hidden transition-[max-height] duration-300
           ${menuOpen ? "max-h-screen" : "max-h-0"}`}
       >
         <ul className="flex flex-col">
