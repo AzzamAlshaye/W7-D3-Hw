@@ -10,7 +10,11 @@ export default function Footer() {
         {/* Brand & Social */}
         <div className="space-y-6">
           <div className="flex items-center space-x-3">
-            <img src="logo.svg" alt="Logo" className="h-10 w-auto" />
+            <img
+              src="logo.svg"
+              alt="Rick and Morty icon"
+              className="h-10 w-auto"
+            />
             <h3 className="text-2xl font-bold text-neutral-200">
               The Rick and Morty API
             </h3>

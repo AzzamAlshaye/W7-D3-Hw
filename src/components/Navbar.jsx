@@ -21,7 +21,11 @@ export default function Navbar() {
         {/* Brand */}
         <Link to="/" className="flex items-center space-x-2">
           {/* invert your logo if it’s colored */}
-          <img src="logo.svg" alt="wikipedia icon" className="h-15 filter " />
+          <img
+            src="logo.svg"
+            alt="Rick and Morty icon"
+            className="h-15 filter "
+          />
         </Link>
 
         {/* Desktop links */}

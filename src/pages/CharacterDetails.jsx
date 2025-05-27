@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { useParams, Link } from "react-router";
+import { IoMdArrowRoundBack } from "react-icons/io";
 
 // Base API endpoint
 const API_BASE = "https://655127797d203ab6626e943b.mockapi.io/Character_fahad";
@@ -48,9 +49,10 @@ export default function CharacterDetails() {
     <div className="p-4 max-w-md mx-auto">
       <Link
         to="/characters"
-        className="inline-block mb-4 text-neutral-700 hover:text-neutral-900"
+        className="flex gap-2 items-center mb-2 w-30 text-neutral-700 hover:text-neutral-900 bg-neutral-300 p-1 px-2 rounded-4xl"
       >
-        &larr; Back to list
+        <IoMdArrowRoundBack />
+        Back to list
       </Link>
       <div className="bg-neutral-50 p-6 rounded-lg shadow-lg">
         {image && (
